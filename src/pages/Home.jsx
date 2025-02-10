@@ -6,7 +6,6 @@ export default function Home({count}) {
   return (
     <div>
         Home page Count: {count}
-      <button onClick={() => navigate('/about')}>about</button>
     </div>
   )
 }

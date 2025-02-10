@@ -6,7 +6,6 @@ export default function About({count}) {
   return (
     <div>
         About page Count: {count}
-      <button onClick={() => navigate('/')}>Back</button>
     </div>
   )
 }

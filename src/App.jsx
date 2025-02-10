@@ -17,11 +17,17 @@ function App() {
   return (
     <>
        <div>
-          count: {count}
+       <Navbar />
+       <div className='Heading'>
+          Count : {count}
+          </div>
+          <br />
+          <div className='AddSub'>
          <button onClick={add}>Add</button>
           <button onClick={decrease}>Decrease</button>
           </div>
-         <Navbar />
+          </div>
+         
           <Routes>
             <Route path="/" element={<Home count={count}/>} />
             <Route path="/about" element={<About count={count}/>} />

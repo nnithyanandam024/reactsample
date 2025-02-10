@@ -5,6 +5,20 @@
   text-align: center;
 }
 
+.AddSub{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 20px 30px;
+}
+
+.Heading{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f6f6f6;
+  padding: 20px 30px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
